@@ -21,17 +21,11 @@ export const ServiceCard = ({
 
   return (
     
-      <div className="relative flex w-80 flex-col  border rounded-xl bg-white bg-clip-border text-gray-700 shadow-2xl hover:cursor-pointer transform transition-transform hover:scale-105 mt-10 p-4 sm:p-6  ">
-        <div className="relative mx-4  mt-2 h-40 border overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 flex flex-col items-center justify-center">
-          <div>
-            <Image
-              src={imgSrc}
-              width={60}
-              height={60}
-              alt="Service Icon"
-              className="mx-auto my-auto"
-            />
-          </div>
+      <div className="relative flex w-80 flex-col  border rounded-xl border-black bg-white bg-clip-border text-gray-700 shadow-2xl hover:cursor-pointer transform transition-transform hover:scale-105 mt-10 p-4 sm:p-6  ">
+        <div className="relative mt-2 h-40 border overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 flex flex-col items-center justify-center">
+        <div>
+          <Image src={imgSrc} width={400} height={60} alt="Service Icon" />
+        </div>
         </div>
         <div className="p-6">
           <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
@@ -50,7 +44,7 @@ export const ServiceCard = ({
           </ul>
         </div>
         <div className="p-6 pt-0">
-          <CustomButton path={linkPath} title="See details" />
+          <CustomButton path={linkPath} title="Know More" />
         </div>
       </div>
     

@@ -25,7 +25,7 @@ const page = () => {
         </p>
         <div className=" mt-4 p-6 pt-0 flex justify-center">
         {/* Center the button */}
-        <CustomButton title="Contact us for booking" />
+        <CustomButton path="/contact" title="Contact us for booking" />
       </div>
       </div>
     </div>

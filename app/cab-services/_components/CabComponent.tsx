@@ -1,7 +1,7 @@
 import CustomButton from "@/app/components/Button";
 import { CircleCheck } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
+
 
 interface CabComponentProps {
   title: string;
@@ -19,7 +19,7 @@ export const CabComponent = ({
   const descriptionLines = description.split(". ");
 
   return (
-    <Link href={linkPath || "#"}>
+  
       <div className="relative flex flex-col border rounded-xl bg-white bg-clip-border text-gray-700 shadow-2xl hover:cursor-pointer transform transition-transform hover:scale-105 mt-10 sm:w-80 p-4 sm:p-6 mx-auto md:flex-col">
         <div className="relative mt-2 h-40 border overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 flex flex-col items-center justify-center">
           <div>
@@ -44,9 +44,9 @@ export const CabComponent = ({
         </div>
         <div className="p-6 pt-0 flex justify-center">
           {/* Center the button */}
-          <CustomButton title="Contact us for booking" />
+          <CustomButton path="/contact" title="Contact us for booking" />
         </div>
       </div>
-    </Link>
+
   );
 };

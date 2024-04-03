@@ -14,9 +14,9 @@ const GuideServices = () => {
   return (
     <div className="relative mb-36">
       {/* Full-width image with text overlay */}
-      <div className="relative h-96 sm:h-[400px] xl:h-[500px] 2xl:h-[600px] z-0">
+      <div className="relative h-96 sm:h-[400px] xl:h-[500px] 2xl:h-[500px] z-0">
         <Image
-          src="/Amer-fort.jpg"
+          src="/guide-large.jpg"
           alt="Contact header"
           width={1920}
           height={500}
@@ -26,7 +26,6 @@ const GuideServices = () => {
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold">
             Local guides, global knowledge
           </h1>
-          <h2 className="text-xl">Experience Rajasthan with a local guide</h2>
         </div>
       </div>
 
@@ -89,13 +88,13 @@ const GuideServices = () => {
         <div className="mt-16 flex justify-center items-center">
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6">
               {/* English guide for 2 persons */}
-            <GuidePricingCard title="English Guide for (2 persons)" priceSymbol="Rs" actualPrice="1500 per day" description="Plan your personalized iternary. Suck cock. Lick pussy of our guide" />
+            <GuidePricingCard title="English Guide for (2 persons)" priceSymbol="Rs" actualPrice="1500 per day" description="Personalized service. Flexible itinerary. Intimate experience" />
               {/* English guide Group charges */}
-            <GuidePricingCard title="English Guide (group charges)" priceSymbol="Rs" actualPrice="2500 per day" description="Plan your personalized iternary. Suck cock. Lick pussy of our guide" />
+            <GuidePricingCard title="English Guide (group charges)" priceSymbol="Rs" actualPrice="2500 per day" description="Group coordination. Cost-effective option. Shared exploration" />
               {/* French guide for 2 persons */}
-            <GuidePricingCard title="French Guide for (2 persons)" priceSymbol="Rs" actualPrice="2000 per day" description="Plan your personalized iternary. Suck cock. Lick pussy of our guide" />
+            <GuidePricingCard title="French Guide for (2 persons)" priceSymbol="Rs" actualPrice="2000 per day" description="Fluent French-speaking. Tailored experience. Cultural immersion" />
               {/* French guide group charges */}
-            <GuidePricingCard title="French Guide for (group charges)" priceSymbol="Rs" actualPrice="4000 per day" description="Plan your personalized iternary. Suck cock. Lick pussy of our guide" />
+            <GuidePricingCard title="French Guide for (group charges)" priceSymbol="Rs" actualPrice="4000 per day" description="Group excursions. Language support. Comprehensive commentary" />
             
           </div>
         </div>

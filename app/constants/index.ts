@@ -26,8 +26,8 @@ export const FOOTER_LINKS = [
     title: 'Services',
     links: [
       { label: 'Rajasthan Tours & Travel services', destination: 'rajasthan-tours' },
-      { label: 'Get Personalized Packages', destination: 'personalized-packages' },
-      { label: 'Nationwide Tours', destination: 'nationwide-tours' },
+      { label: 'Get Personalized Packages', destination: '/contact' },
+      { label: 'Nationwide Tours', destination: '/contact' },
     ],
   },
 ];

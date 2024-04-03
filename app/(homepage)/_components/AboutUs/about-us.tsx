@@ -16,18 +16,18 @@ export const AboutUs = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
                     <Image
-                      width={200}
-                      height={300}
-                      src="/Elephant.jpg"
+                      width={800}
+                      height={600}
+                      src="/kerela.jpg"
                       alt=""
                       className="w-full rounded-2xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
                     <Image
-                      width={200}
-                      height={300}
-                      src="/Mehrangarh.jpg"
+                      width={800}
+                      height={600}
+                      src="/Elephant.jpg"
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -36,9 +36,9 @@ export const AboutUs = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="relative z-10 my-4">
                     <Image
-                      width={200}
-                      height={300}
-                      src="/Taj-mahal.jpg"
+                      width={800}
+                      height={600}
+                      src="/himachal.jpg"
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -50,20 +50,16 @@ export const AboutUs = () => {
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
                 <span className="block mb-4 text-lg font-semibold text-primary">
-                  Why Choose Us
+                  Why Choose Us?
                 </span>
-                <h2 className="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
+                <h2 className="mb-5 text-4xlxl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
                   Rudraksh Tours & Travels
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">
-                  We are one of the best International Indian Tourist guide with
-                  one motive to provide you best accomodation services, giving
-                  you cab facility keeping all hygine, covidm protocols etc.
+                We are your premier International Indian Tourist Partner specializing in Rajasthan tours and travel services, dedicated to providing you with exceptional accommodation services and safe transportation options. Our top priority is your comfort and safety, and we ensure strict adherence to hygiene and COVID-19 protocols throughout your journey.
                 </p>
                 <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                  We provide Homestays as per need (Charges may Vary) and also
-                  provide Cab facility. Pick and drop facility available from
-                  Delhi Airport.
+                However, if you're seeking nationwide tours, we offer the best packages and tour offers delivered in fluent, professional English and french. Our dedicated team ensures top-notch accommodation services and safe transportation options, prioritizing your comfort and safety .
                 </p>
                 <div className="my-11 flex flex-wrap gap-5">
                   <div className="flex items-center gap-2">

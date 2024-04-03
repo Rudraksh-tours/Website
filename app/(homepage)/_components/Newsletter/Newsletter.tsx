@@ -39,9 +39,8 @@ export const Newsletter = () => {
         setError(""); // Reset error if success
       } else {
         const responseData = await response.json();
-        if (response.status === 400 && responseData.error === 'Email already exists') {
+        if (response.status === 400 && responseData === 'Email already exists') {
           setEmailExists(true);
-          alert("Email already exists");
         } else {
           setError("Error adding email");
         }
@@ -101,7 +100,6 @@ export const Newsletter = () => {
               {loading ? <div className="loader" /> : "Notify Me"}
             </button>
             {error && <p className="text-red-500 mt-2">{error}</p>}
-            {successStatus && <p className="text-blue-500 mt-2">{"Email successfully added"}</p>}
           </form>
           <p>
             We care bout the protection of your data. Read our{" "}

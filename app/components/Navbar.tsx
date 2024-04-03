@@ -42,13 +42,13 @@ export const Navbar = () => {
   return (
     <>
     <nav
-      className={`flexBetween  p-0 max-container padding-container  z-30  ${
+      className={`flexBetween padding-container  z-30  ${
         isSticky ? "sticky top-0 bg-yellow-100 transition-all" : ""
       }`}
     >
       <Link href="/">
         <div className="py-2 px-0">
-          <Image src="/logo.png" alt="logo" width={150} height={50} />
+          <Image src="/logo.png" alt="logo" width={90} height={20} />
         </div>
       </Link>
 
@@ -115,13 +115,13 @@ export const Navbar = () => {
           </ul>
 
           <div className="flex gap-4 justify-center mt-4">
-            <Link href="">
+            <Link href="https://www.instagram.com/rudraksh_tours_/">
               <FaInstagram
                 className="text-gray-500 hover:text-gray-700 cursor-pointer"
                 size={24}
               />
             </Link>
-            <Link href="">
+            <Link href="https://www.facebook.com/profile.php?id=61558154574683">
               <FaFacebook
                 className="text-gray-500 hover:text-gray-700 cursor-pointer"
                 size={24}

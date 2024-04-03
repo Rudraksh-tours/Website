@@ -1,6 +1,5 @@
 import CustomButton from "@/app/components/Button";
 import Image from "next/image";
-import { DESTINATIONS } from "@/app/constants";
 
 interface RajTravelDestCardProps {
   title: string;

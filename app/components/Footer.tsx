@@ -38,7 +38,7 @@ export const Footer = () => {
               <FooterColumn title={FOOTER_CONTACT_INFO.title}>
                 {FOOTER_CONTACT_INFO.links.map((link) => (
                   <Link
-                    href="/#footer"
+                    href="/contact"
                     key={link.label}
                     className="hover:cursor-default flex gap-4 md:flex-col lg:flex-row"
                   >
@@ -58,13 +58,13 @@ export const Footer = () => {
                   </Link>
                 ))}
                 <div className="flex gap-4 justify-center mt-4">
-                  <Link href="https://www.instagram.com/alaquacox/?hl=en">
+                  <Link href="https://www.instagram.com/rudraksh_tours_/">
                     <FaInstagram
                       className="text-gray-500 hover:text-gray-700 cursor-pointer"
                       size={24}
                     />
                   </Link>
-                  <Link href="https://www.instagram.com/alaquacox/?hl=en">
+                  <Link href="https://www.facebook.com/profile.php?id=61558154574683">
                     <FaFacebook
                       className="text-gray-500 hover:text-gray-700 cursor-pointer"
                       size={24}
