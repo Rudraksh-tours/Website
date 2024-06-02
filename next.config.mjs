@@ -1,16 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
     images: {
-        remotePatterns: [
-          {
-            protocol: 'https',
-            hostname: 'cdn.builder.io'
-          },
-          {
-            protocol: 'https',
-            hostname: 'i.ibb.co'
-          },
-        ],
+        unoptimized: true,
       },
 };
 

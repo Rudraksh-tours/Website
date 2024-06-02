@@ -28,6 +28,7 @@ export const FOOTER_LINKS = [
       { label: 'Rajasthan Tours & Travel services', destination: 'rajasthan-tours' },
       { label: 'Get Personalized Packages', destination: '/contact' },
       { label: 'Nationwide Tours', destination: '/contact' },
+      { label: 'Rudraksh Homestays', destination: '/homestays' },
     ],
   },
 ];
@@ -37,6 +38,7 @@ export const FOOTER_CONTACT_INFO = {
   links: [
     { label: 'Admin Officer', value: '+91 9928595142' },
     { label: 'Email Officer', value: 'RudrakshTravelsandTours@gmail.com' },
+    { label: 'Address', value: '15, Gopal Bari , Krishnam Apartment, Lane No-1, 3rd Floor (304) Behind Corporate Park. Jaipur, Rajasthan' },
   ],
 };
 

@@ -59,7 +59,7 @@ export const AboutUs = () => {
                 We are your premier International Indian Tourist Partner specializing in Rajasthan tours and travel services, dedicated to providing you with exceptional accommodation services and safe transportation options. Our top priority is your comfort and safety, and we ensure strict adherence to hygiene and COVID-19 protocols throughout your journey.
                 </p>
                 <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                However, if you're seeking nationwide tours, we offer the best packages and tour offers delivered in fluent, professional English and french. Our dedicated team ensures top-notch accommodation services and safe transportation options, prioritizing your comfort and safety .
+                However, if you&apos;re seeking nationwide tours, we offer the best packages and tour offers delivered in fluent, professional English and french. Our dedicated team ensures top-notch accommodation services and safe transportation options, prioritizing your comfort and safety .
                 </p>
                 <div className="my-11 flex flex-wrap gap-5">
                   <div className="flex items-center gap-2">

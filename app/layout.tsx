@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Navbar } from "./components/Navbar";
-import { Footer} from "./components/Footer";
+import { Footer } from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Rudhraksh Tours & Travels",
@@ -16,13 +16,14 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body>
-        <Navbar />
         <main className="relative overflow-hidden">
+        <Navbar />
           {children}
-        </main>
-
         <Footer />
+          </main>
       </body>
     </html>
+
+
   );
 }

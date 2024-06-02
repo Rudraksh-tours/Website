@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { FormEvent, useState } from "react";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
-import Loader from "react-loaders";
 import { ContactForm } from "../components/ContactForm";
 
 const ContactUs = () => {
@@ -14,7 +13,6 @@ const ContactUs = () => {
     <>
       {loading && (
         <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-900 bg-opacity-50 z-50">
-          <Loader active={loading} type="pacman" />
           <div className="loader"></div>
         </div>
       )}

@@ -3,7 +3,7 @@ import Image from "next/image";
 interface GuideReasonCardProps {
   imgUrl: string;
   title: string;
-  description: string;
+  description?: string;
   customComponent: React.ReactNode;
 }
 

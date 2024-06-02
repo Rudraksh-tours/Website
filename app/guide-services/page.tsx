@@ -12,7 +12,7 @@ import CustomButton from "../components/Button";
 
 const GuideServices = () => {
   return (
-    <div className="relative mb-36">
+    <div className="relative ">
       {/* Full-width image with text overlay */}
       <div className="relative h-96 sm:h-[400px] xl:h-[500px] 2xl:h-[500px] z-0">
         <Image
@@ -78,26 +78,8 @@ const GuideServices = () => {
         </div>
       </div>
 
-      {/*Guide Prices Section*/}
-      <div className="max-w-screen-xl mx-auto mt-16 p-10  lg:flex-col lg:justify-center items-center hover:cursor-pointer">
-        <div>
-          <h2 className="text-2xl font-semibold flex  justify-center">
-            Our Guides, your way
-          </h2>
-        </div>
-        <div className="mt-16 flex justify-center items-center">
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6">
-              {/* English guide for 2 persons */}
-            <GuidePricingCard title="English Guide for (2 persons)" priceSymbol="Rs" actualPrice="1500 per day" description="Personalized service. Flexible itinerary. Intimate experience" />
-              {/* English guide Group charges */}
-            <GuidePricingCard title="English Guide (group charges)" priceSymbol="Rs" actualPrice="2500 per day" description="Group coordination. Cost-effective option. Shared exploration" />
-              {/* French guide for 2 persons */}
-            <GuidePricingCard title="French Guide for (2 persons)" priceSymbol="Rs" actualPrice="2000 per day" description="Fluent French-speaking. Tailored experience. Cultural immersion" />
-              {/* French guide group charges */}
-            <GuidePricingCard title="French Guide for (group charges)" priceSymbol="Rs" actualPrice="4000 per day" description="Group excursions. Language support. Comprehensive commentary" />
-            
-          </div>
-        </div>
+
+      <div className="max-w-screen-xl mx-auto mt-1 p-10  lg:flex-col lg:justify-center items-center hover:cursor-pointer">
         <div className="mt-16 flex justify-center"> {/* Center the button */}
           <Link href="contact">
           <CustomButton title="Book your guide" />
